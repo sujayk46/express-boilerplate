@@ -1,0 +1,13 @@
+.vscode/
+node_modules/
+logs/
+.DS_Store
+
+# Ignore built ts files
+dist/**/*
+
+# Ignore .env file as it holds secrets
+
+# Firebase service account file
+/config/firebase-service-account.json
+

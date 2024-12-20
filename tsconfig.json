@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "ES2024",
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "forceConsistentCasingInFileNames": true,
+        "paths": {
+            "*": ["node_modules/*", "src/@custom_types/*"]
+        },
+        "types": ["node", "express"]
+    },
+    "include": ["src/**/*.ts"]
+}
