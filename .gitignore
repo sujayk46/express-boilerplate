@@ -7,6 +7,7 @@ logs/
 dist/**/*
 
 # Ignore .env file as it holds secrets
+.env
 
 # Firebase service account file
 /config/firebase-service-account.json
